@@ -1,78 +1,61 @@
 {
   "css": {
-    "selectors": {
-      "nesting": {
+    "properties": {
+      "text-decoration-inset": {
         "__compat": {
-          "description": "Nesting selector (`&amp;`)",
-          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Selectors/Nesting_selector",
-          "spec_url": "https://drafts.csswg.org/css-nesting/#nest-selector",
+          "mdn_url": "https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-decoration-inset",
+          "spec_url": "https://drafts.csswg.org/css-text-decor-4/#propdef-text-decoration-inset",
           "tags": [
-            "web-features:nesting"
+            "web-features:text-decoration"
           ],
           "support": {
-            "chrome": [
-              {
-                "version_added": "120"
-              },
-              {
-                "version_added": "112",
-                "version_removed": "120",
-                "partial_implementation": true,
-                "notes": "Does not support nested rules that start with a type selector."
-              }
-            ],
+            "chrome": {
+              "version_added": false
+            },
             "chrome_android": "mirror",
             "edge": "mirror",
             "firefox": {
-              "version_added": "117"
+              "version_added": "146"
             },
             "firefox_android": "mirror",
             "oculus": "mirror",
             "opera": "mirror",
             "opera_android": "mirror",
-            "safari": [
-              {
-                "version_added": "17.2"
-              },
-              {
-                "version_added": "16.5",
-                "version_removed": "17.2",
-                "partial_implementation": true,
-                "notes": "Does not support nested rules that start with a type selector."
-              }
-            ],
+            "safari": {
+              "version_added": false
+            },
             "safari_ios": "mirror",
             "samsunginternet_android": "mirror",
             "webview_android": "mirror",
             "webview_ios": "mirror"
           },
           "status": {
-            "experimental": false,
+            "experimental": true,
             "standard_track": true,
             "deprecated": false
           }
         },
-        "at-scope": {
+        "auto": {
           "__compat": {
-            "description": "`&amp;` treated as `:where(:scope)` in `@scope` blocks",
+            "spec_url": "https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-inset-auto",
             "tags": [
-              "web-features:nesting"
+              "web-features:text-decoration"
             ],
             "support": {
               "chrome": {
-                "version_added": "143"
+                "version_added": false
               },
               "chrome_android": "mirror",
               "edge": "mirror",
               "firefox": {
-                "version_added": "142"
+                "version_added": "146"
               },
               "firefox_android": "mirror",
               "oculus": "mirror",
               "opera": "mirror",
               "opera_android": "mirror",
               "safari": {
-                "version_added": "26.2"
+                "version_added": false
               },
               "safari_ios": "mirror",
               "samsunginternet_android": "mirror",
@@ -80,7 +63,7 @@
               "webview_ios": "mirror"
             },
             "status": {
-              "experimental": false,
+              "experimental": true,
               "standard_track": true,
               "deprecated": false
             }

@@ -1,5 +1,87 @@
 # @mdn/browser-compat-data release notes
 
+## [v7.1.22](https://github.com/mdn/browser-compat-data/releases/tag/v7.1.22)
+
+November 17, 2025
+
+### Additions
+
+- `api.CSSCustomMediaRule` ([#28450](https://github.com/mdn/browser-compat-data/pull/28450))
+- `browsers.nodejs.releases.24.5.0` ([#28343](https://github.com/mdn/browser-compat-data/pull/28343))
+- `css.properties.justify-items.center` ([#28421](https://github.com/mdn/browser-compat-data/pull/28421))
+- `webdriver.bidi.emulation.setLocaleOverride.locale_parameter.sets_accept-language_header` ([#28442](https://github.com/mdn/browser-compat-data/pull/28442))
+
+### Statistics
+
+- 7 contributors have changed 26 files with 488 additions and 173 deletions in 18 commits ([`v7.1.21...v7.1.22`](https://github.com/mdn/browser-compat-data/compare/v7.1.21...v7.1.22))
+- 19,054 total features
+- 1,206 total contributors
+- 5,487 total stargazers
+
+## [v7.1.21](https://github.com/mdn/browser-compat-data/releases/tag/v7.1.21)
+
+November 12, 2025
+
+### Additions
+
+- `browsers.bun.releases.1.3.2` ([#28422](https://github.com/mdn/browser-compat-data/pull/28422))
+- `browsers.firefox_android.releases.148` ([#28433](https://github.com/mdn/browser-compat-data/pull/28433))
+- `browsers.firefox.releases.148` ([#28433](https://github.com/mdn/browser-compat-data/pull/28433))
+- `css.at-rules.custom-media` ([#28438](https://github.com/mdn/browser-compat-data/pull/28438))
+- `css.properties.text-decoration-inset` ([#28426](https://github.com/mdn/browser-compat-data/pull/28426))
+- `css.properties.text-decoration-inset.auto` ([#28426](https://github.com/mdn/browser-compat-data/pull/28426))
+- `webextensions.api.browsingData.removeCache.removalOptions` ([#28261](https://github.com/mdn/browser-compat-data/pull/28261))
+- `webextensions.api.browsingData.removeCache.removalOptions.since` ([#28261](https://github.com/mdn/browser-compat-data/pull/28261))
+- `webextensions.api.browsingData.removeLocalStorage.removalOptions.since` ([#28261](https://github.com/mdn/browser-compat-data/pull/28261))
+
+### Statistics
+
+- 7 contributors have changed 31 files with 526 additions and 252 deletions in 18 commits ([`v7.1.20...v7.1.21`](https://github.com/mdn/browser-compat-data/compare/v7.1.20...v7.1.21))
+- 19,051 total features
+- 1,205 total contributors
+- 5,479 total stargazers
+
+## [v7.1.20](https://github.com/mdn/browser-compat-data/releases/tag/v7.1.20)
+
+November 7, 2025
+
+### Renamings
+
+- `api.GPUAdapter.requestDevice.lost_device_on_duplicate` to `api.GPUAdapter.requestDevice.handles_duplicate_calls` ([#28402](https://github.com/mdn/browser-compat-data/pull/28402))
+
+### Removals
+
+- `css.types.attr.type-or-unit.frequency` ([#28408](https://github.com/mdn/browser-compat-data/pull/28408))
+- `css.types.attr.type-or-unit.url` ([#28408](https://github.com/mdn/browser-compat-data/pull/28408))
+
+### Additions
+
+- `api.console.timeStamp_static.color_parameter` ([#28270](https://github.com/mdn/browser-compat-data/pull/28270))
+- `api.console.timeStamp_static.data_parameter` ([#28270](https://github.com/mdn/browser-compat-data/pull/28270))
+- `api.console.timeStamp_static.end_parameter` ([#28270](https://github.com/mdn/browser-compat-data/pull/28270))
+- `api.console.timeStamp_static.label_parameter` ([#28270](https://github.com/mdn/browser-compat-data/pull/28270))
+- `api.console.timeStamp_static.start_parameter` ([#28270](https://github.com/mdn/browser-compat-data/pull/28270))
+- `api.console.timeStamp_static.trackGroup_parameter` ([#28270](https://github.com/mdn/browser-compat-data/pull/28270))
+- `api.console.timeStamp_static.trackName_parameter` ([#28270](https://github.com/mdn/browser-compat-data/pull/28270))
+- `api.Document.execCommand.insertHTML` ([#28350](https://github.com/mdn/browser-compat-data/pull/28350))
+- `api.Document.execCommand.insertHTML.enforces_trusted_types` ([#28350](https://github.com/mdn/browser-compat-data/pull/28350))
+- `api.Element.setAttribute.enforces_trusted_types` ([#28350](https://github.com/mdn/browser-compat-data/pull/28350))
+- `api.Element.setAttributeNS.enforces_trusted_types` ([#28350](https://github.com/mdn/browser-compat-data/pull/28350))
+- `api.Performance.mark.markOptions_detail_devtools_parameter` ([#28270](https://github.com/mdn/browser-compat-data/pull/28270))
+- `api.Performance.measure.measureOptions_detail_devtools_parameter` ([#28270](https://github.com/mdn/browser-compat-data/pull/28270))
+- `api.SharedWorker.SharedWorker.enforces_trusted_types` ([#28350](https://github.com/mdn/browser-compat-data/pull/28350))
+- `api.Worker.Worker.enforces_trusted_types` ([#28350](https://github.com/mdn/browser-compat-data/pull/28350))
+- `css.properties.justify-items.block_context` ([#28391](https://github.com/mdn/browser-compat-data/pull/28391))
+- `css.properties.justify-self.block_context` ([#28391](https://github.com/mdn/browser-compat-data/pull/28391))
+- `javascript.builtins.Function.Function.enforces_trusted_types` ([#28350](https://github.com/mdn/browser-compat-data/pull/28350))
+
+### Statistics
+
+- 9 contributors have changed 103 files with 981 additions and 332 deletions in 15 commits ([`v7.1.19...v7.1.20`](https://github.com/mdn/browser-compat-data/compare/v7.1.19...v7.1.20))
+- 19,045 total features
+- 1,205 total contributors
+- 5,474 total stargazers
+
 ## [v7.1.19](https://github.com/mdn/browser-compat-data/releases/tag/v7.1.19)
 
 November 5, 2025
